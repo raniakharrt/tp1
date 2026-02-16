@@ -1,0 +1,22 @@
+p{
+    color:red"
+}
+h1{
+    background-color: salmon;
+}
+.titre{
+    color: blueviolet;
+}
+body {
+    margin: 0;              /* Supprime les marges par défaut */
+    padding: 0;
+    width: 100%;            /* Le body prend toute la largeur */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;            /* Le conteneur occupe toute la largeur */
+    display: flex;          /* Organisation en flexbox */
+    flex-direction: column; /* Mets les éléments les uns en dessous des autres */
+    align-items: center;    /* Ce
+}
