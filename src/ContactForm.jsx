@@ -15,6 +15,7 @@ borderRadius: 2,
 <Typography variant="h6" gutterBottom>
 Contactez-nous
 </Typography>
+
 <TextField fullWidth label="Nom" margin="normal" />
 <TextField fullWidth label="Email" margin="normal" />
 <TextField fullWidth label="Message" multiline rows={4} margin="normal"
