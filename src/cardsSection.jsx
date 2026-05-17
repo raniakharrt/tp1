@@ -6,9 +6,12 @@ const cards = [
 ];
 return (
 <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 p-6">
+
+
 {cards.map((card, index) => (
 <div key={index} className={`rounded-2xl shadow-xl text-white
 ${card.color} p-6`}>
+    
 <h2 className="text-xl font-bold mb-2">{card.title}</h2>
 <p className="text-3xl">{card.value}</p>
 </div>
